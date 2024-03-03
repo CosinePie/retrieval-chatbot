@@ -10,6 +10,7 @@ __pycache__/
 .Python
 build/
 llama2_model/*
+research/*
 develop-eggs/
 dist/
 downloads/
