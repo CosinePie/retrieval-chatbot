@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 from src.helper import load_pdf, split_text
-from store_index import create_vector_db
-from retrieval_chain import form_retrieval_chain
+from utils.store_index import create_vector_db
+from utils.retrieval_chain import form_retrieval_chain
 from config import GeneralParams
 
 app = Flask(__name__)
