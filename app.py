@@ -13,7 +13,6 @@ retriever = create_vector_db(documents=chunks)
 
 retrieval_chain = form_retrieval_chain(retriever=retriever)
 
-# retrieval_chain.invoke({"input": "how can one treat back pain?"})['answer']
 
 @app.route("/")
 def index():

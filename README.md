@@ -6,7 +6,7 @@
 Clone the repository
 
 ```bash
-Project repo: https://github.com/
+Project repo: https://github.com/CosinePie/retrieval-chatbot.git
 ```
 
 ### Create a conda environment after opening the repository
