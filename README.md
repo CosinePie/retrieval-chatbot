@@ -9,7 +9,7 @@ Clone the repository
 Project repo: https://github.com/
 ```
 
-### STEP 1- Create a conda environment after opening the repository
+### Create a conda environment after opening the repository
 
 ```bash
 conda create -n rag-chatbot
@@ -19,7 +19,7 @@ conda create -n rag-chatbot
 conda activate rag-chatbot
 ```
 
-### STEP 02- install the requirements
+### Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
@@ -32,6 +32,7 @@ API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 # Finally run the following command
+```bash
 python app.py
 ```
 
